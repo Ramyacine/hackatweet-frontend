@@ -1,22 +1,75 @@
-.main {
+
+.contenta {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
-  padding: 4rem 0;
+  width: 100vw;
+  height: 100vh;
 }
+
+.contentleft {
+  display: flex;
+  background-image: url("../public/Image_Pasted_at_2024-7-18_11-13.png");
+  background-size: cover;
+  width: 35vw;
+  height: 100vh;
+}
+
+.contentlog{
+  display: flex;
+}
+
+.contentright {
+  display: flex;
+  background-color:rgb(1, 3, 26);
+  width: 65vw;
+  height: 100vh;
+}
+
 
 .title {
-  line-height: 1.15;
-  font-size: 4rem;
+  justify-content: space-between;
+  font-size:200x;
+  color: white;
 }
 
-.title a {
-  color: #0070f3;
-  text-decoration: none;
+.h3 {
+  font-size:20px;
+  color :white;
 }
 
-.title a:hover, .title a:focus, .title a:active {
-  text-decoration: underline;
+.p {
+  color :white;
 }
+
+/* . {
+	width: 400px;
+	height: 400px;
+	margin: 10px;
+} */
+
+button #register{
+  height: 35px;
+  width: 80px;
+  font-size: 16px;
+  font-weight: 600;
+  color: white;
+  background-color: #74c0fc;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+button #connection{
+  height: 35px;
+  width: 80px;
+  font-size: 16px;
+  color: #74c0fc;
+  background-color: transparent;
+  border:2px ,solide,white;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+/* .logoutSection {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+} */
