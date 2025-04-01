@@ -1,0 +1,89 @@
+.contenta {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+  }
+  
+  /* .contentleft {
+    display: flex;
+    background-image: url("../public/Image_Pasted_at_2024-7-18_11-13.png");
+    background-size: cover;
+    width: 35vw;
+    height: 100vh;
+  } */
+  
+  .twittericon {
+    height: 5px;
+    padding-top:20px;
+  }
+  
+  .login {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left:30px;
+  }
+  
+ .contentright {
+    display: flex;
+    flex-direction: column;
+    background-color:rgb(1, 3, 26);
+    width: 65vw;
+    height: 100vh;
+  } 
+  
+  .contentlog > h1 {
+    font-size :65px;
+    color: white;
+  }
+  
+  /* .h3 {
+    font-size:30px;
+    color :white;
+    line-height:10px;
+  } */
+
+  
+  .signUp {
+    height: 32px;
+    width: 180px;
+    font-size: 15px;
+    color: white;
+    background-color: #74c0fc;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  
+  .signIn {
+    height: 32px;
+    width: 180px;
+    font-size: 15px;
+    color: #74c0fc;
+    border: 1px white solid;
+    background-color: transparent;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  
+
+  .login h1{
+    color: white;
+    font-size: 60px;
+  }
+
+  .login h2{
+    font-size:30px;
+    color :white;
+  }
+
+  .login h5{
+    color :white;
+  }
+
+  .Modal{
+    /* display: flex; */
+    background-color:#15202b;
+  }
+
+

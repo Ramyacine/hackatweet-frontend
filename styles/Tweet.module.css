@@ -1,0 +1,67 @@
+.contentmain {
+    background-color:rgb(1, 3, 26);
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+  }
+  
+  .contentleft {
+    display: flex;
+    flex-direction: column;
+    background-size: cover;
+    width: 20%;
+    height: 100%;
+    border: 1px gray solid;
+  }
+
+  .twittericon {
+    display: flex;
+    flex-direction: left;
+  }
+  
+  .contentmiddle {
+    display: flex;
+    flex-direction: column;
+    background-size: cover;
+    width: 60%;
+    height: 100%;
+    border: 1px gray solid;
+  }
+
+  .inputtweet{
+    display: flex;
+    justify-content: center;
+    height: 30px;
+    width: 600px;
+    background-color: transparent;
+    outline: none;
+    border:none;
+    border-bottom:1px  gray solid;
+    color : gray;
+  }
+
+  .contentright {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    height: 100%;
+    border: 1px gray solid;
+  }
+
+  .headcontent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .tweetbtn{
+    height: 32px;
+    width: 180px;
+    font-size: 15px;
+    color: white;
+    background-color: #74c0fc;
+    border-radius: 20px;
+    cursor: pointer;
+
+  }

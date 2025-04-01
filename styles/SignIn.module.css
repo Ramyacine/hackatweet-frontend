@@ -1,0 +1,45 @@
+.signIn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+    width: 350px;
+    background-color: #15202b;
+    border: 1px white solid;
+    border-radius: 4px;
+    /* transition-duration: 0.5s; */
+    cursor: pointer;
+  }
+
+  .p{
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    color: #ffffff;
+  }
+
+  .connection {
+    background-color: #ffffff;
+    color: #1da1f2;
+    border: 1px solid #1da1f2;
+    margin-bottom: 50px;
+  }
+
+  .inputStyle {
+    border: white;
+    background-color:#15202b;
+    border-bottom: 1px solid #ffffff80;
+    color: white;
+    font-size: 16px;
+    padding: 5px;
+    margin-bottom: 5px;
+    width: 60%;
+    outline: none;
+    color: #ffffff80;
+  }
+
+  .Modal{
+    /* display: flex; */
+    background-color:#15202b;
+  }
